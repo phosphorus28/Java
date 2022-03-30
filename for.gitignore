@@ -1,0 +1,18 @@
+public class exercise1{
+     public static void main(String[] args) {
+           java.util.Scanner a=new java.util.Scanner(System.in);
+           int num1=a.nextInt();
+           int num2=a.nextInt();
+           int i=0;
+           for(;num1<=num2;num1++)
+           {
+                 if(num1%17==0)
+                 {
+                       i=i+num1;
+                 }
+           }
+           System.out.println(i);
+           a.close();
+        }
+       
+}
